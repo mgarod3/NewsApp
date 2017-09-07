@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.mercedes.newsapp.MainActivity">
+
+    <!-- List of books View-->
+    <ListView
+        android:id="@+id/list"
+        style="@style/ListViewStyle" />
+
+    <!-- Empty View-->
+    <TextView
+        android:id="@+id/empty_list"
+        style="@style/EmptyListView" />
+
+    <!-- ProgressBar to show while waiting to load data-->
+    <ProgressBar
+        android:id="@+id/progress_bar"
+        style="@style/ProgressBar" />
+
+</RelativeLayout>

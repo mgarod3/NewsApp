@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- By Order -->
+    <string-array name="settings_order_by_labels">
+        <item>@string/settings_order_by_relevance_label</item>
+        <item>@string/settings_order_by_most_recent_label</item>
+    </string-array>
+
+    <string-array name="settings_order_by_values">
+        <item>@string/settings_order_by_relevance_value</item>
+        <item>@string/settings_order_by_most_recent_value</item>
+    </string-array>
+
+    <!-- Section -->
+    <string-array name="settings_section_labels">
+        <item>@string/settings_section_technology_label</item>
+        <item>@string/settings_section_business_label</item>
+        <item>@string/settings_section_lifeandstyle_label</item>
+    </string-array>
+
+    <string-array name="settings_section_values">
+        <item>@string/settings_section_technology_value</item>
+        <item>@string/settings_section_business_value</item>
+        <item>@string/settings_section_lifeandstyle_value</item>
+    </string-array>
+
+</resources>

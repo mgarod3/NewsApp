@@ -1,0 +1,63 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!-- Intermediate style -->
+    <style name="Intermediate" parent="AppTheme">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <!-- MainActivity Layout elements-->
+    <!-- ListView style-->
+    <style name="ListViewStyle" parent="Intermediate">
+        <item name="android:orientation">vertical</item>
+        <item name="android:paddingTop">@dimen/padding</item>
+        <item name="android:paddingLeft">@dimen/padding</item>
+        <item name="android:paddingRight">@dimen/padding</item>
+    </style>
+
+    <!-- EmpyListView style-->
+    <style name="EmptyListView" parent="AppTheme">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_centerInParent">true</item>
+        <item name="android:textAppearance">?android:textAppearanceMedium</item>
+    </style>
+
+    <!-- Loading indicator style-->
+    <style name="ProgressBar" parent="Widget.AppCompat.ProgressBar">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_centerInParent">true</item>
+    </style>
+
+    <!-- List_item TextViews-->
+    <!-- Title-->
+    <style name="ListItemTitleTextView" parent="Intermediate">
+        <item name="android:textColor">@color/textColorTitleAuthor</item>
+        <item name="android:textSize">@dimen/title_text_size</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <!-- Authors-->
+    <style name="ListItemAuthorTextView" parent="Intermediate">
+        <item name="android:textColor">@color/textColorTitleAuthor</item>
+        <item name="android:textSize">@dimen/author_text_size</item>
+        <item name="android:paddingBottom">@dimen/padding</item>
+    </style>
+
+    <!-- Category and published date-->
+    <style name="ListItemSecDateTextView" parent="Intermediate">
+        <item name="android:textColor">@color/textColorCatDate</item>
+        <item name="android:textSize">@dimen/category_text_size</item>
+        <item name="android:paddingTop">@dimen/padding</item>
+    </style>
+
+</resources>
